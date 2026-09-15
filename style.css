@@ -1,0 +1,271 @@
+*{
+    font-family: sans-serif;
+}
+.header{
+    background-color:white;
+    display:flex;
+    padding:10px 60px;
+    gap:20px;
+}
+.nav-bar{
+    display: flex;
+    gap: 50px;
+}
+.nav-bar a{
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+}
+.nav-bar span{
+    color: orange;
+}
+.nav-bar .active{
+    color: orange;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 17px 30px;
+}
+.business-blog{
+    background: linear-gradient(to right,#787878,#3c3c3c);
+    padding: 50px 70px;
+    color: white;
+}
+.business-blog a{
+    color: orange;
+    text-decoration: none;
+}
+.author{
+    display: flex;
+    padding-top: 40px;
+    gap: 40px;
+}
+.person{
+    width: 350px;
+}
+
+.frame{
+    width: 300px;
+}
+
+.author hr{
+    width: 25px;
+    border: 2px solid orange;
+    margin-left: 0;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    padding: 50px 70px;
+}
+.card{
+    background-color: white;
+    padding: 0px 5px 20px 5px;
+    border: 1px solid black;
+    position: relative;
+}
+.category{
+    background-color: white;
+    display: inline-block;
+    padding: 7px 12px;  
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+.cover{
+    width: 100%;
+}
+.author-info img{
+    width: 40px;
+}
+.category{
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 6px 12px;
+}
+.author-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.author-info img{
+    width: 40px;
+}
+.read span{
+    color: orange;
+}
+.read a{
+    text-decoration: none;
+    color:black;
+}
+.read {
+    text-align: right;
+    margin-top: 20px;
+}
+.form{
+    padding: 50px 70px;
+    text-align: center;
+}
+.form hr{
+    width: 25px;
+    border: 2px solid orange;
+}
+.upper-inputs{
+    display: flex;
+    gap:40px;
+    margin-top: 40px;
+    text-align: left;
+}
+.left-side,
+.right-side{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.lower-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    text-align: left;
+}
+.upper-inputs input{
+    border-radius: 20px;
+    padding: 8px;
+}
+.lower-inputs input{
+    border-radius: 20px;
+    padding: 8px;
+}
+.question{
+    display:flex;
+    align-items:center;
+}
+.privacy{
+    text-align:left;
+    width:35%;
+}
+.privacy span{
+    color: orange;
+}
+.send{
+    text-align:right;
+    margin-top:30px;
+}
+
+.send button{
+    background:linear-gradient(to right,#ffd000,#ff9100);
+    color:white;
+    border:none;
+    padding:20px 100px;
+    font-size:16px;
+    cursor:pointer;
+    box-shadow: 5px 5px 0px #767574;
+}
+.send button{
+    display:inline-flex;
+    gap:100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2a2a2a;
+    color:white;
+    padding:60px 70px;
+    display:flex;
+    gap:10px;
+    margin-top: 150px;
+    overflow: visible;
+
+    
+}
+.lists{
+    display:flex;
+    gap:80px;
+}
+.Site-Map,
+.Our-initiatives,
+.Company{
+    width:180px;
+}
+
+.lists hr{
+    border: 2px solid orange;
+    width: 25px;
+    margin-left: 0;
+}
+.contact-card{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);;
+    padding:30px;
+    width:400px;
+    top: -150px;  
+}
+.contact-Form{
+    width:100%;
+    padding:15px 0;
+    background-color:orange;
+    color:white;
+    border:none;
+    font-size:16px;
+}
+.view{
+    text-decoration: none; 
+    color: orange;
+}
+.copy{
+    text-decoration: none; 
+    color: orange;   
+}
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.locations div{
+    width: 30%;
+}
+.locations i{
+    color: white;
+    margin-right:10px;
+}
+.bottom{
+    background-color: #2a2a2a;
+    color: white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.picture{
+    padding-right: 40px;
+    border-right: 1px solid #666;
+}
+.picture img{
+    width: 270px;
+}
+.left{
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+.copyright span{
+    color:orange;
+}
+.locations span{
+    text-decoration:none; 
+    color: white;
+}
+.left span{
+        text-decoration:none; 
+        color: white;
+}
